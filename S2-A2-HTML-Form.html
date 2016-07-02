@@ -1,0 +1,66 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Html Form</title>
+		<style type="text/css">
+			div {
+				/* background-color: blue; */
+				padding: 10px;
+				margin: 30px;
+				border: 1px solid black;
+				
+				width: 500px;
+				break-before: 
+				
+			}
+			.headcontent{
+				width: 95px;
+				margin-top: -20px;
+				margin-left: 5px;
+				background: white;
+				font-size-adjust: 50px;
+			}
+			
+
+		</style>
+	</head>
+
+	<body>
+		<form method="get">
+
+		<div class="details">	
+			<h4 class="headcontent">Your details :</h4> 
+			Name : <input type="text" name="name"> <br />
+			Email : <input type="email" name="email">
+		</div>
+		
+		<div class="review" >
+				<h4 class="headcontent">Your Review:</h4> 
+			How did you hear about us ?
+			<select name="how">
+				<option value="google">Google</option>
+				<option value="facebook">Facebook</option>
+				<option value="twiiter">Twitter</option>
+			</select>
+		
+			<br /><br />
+			Would you visit again ? 
+			<input type="radio" name="choose" value="yes"> Yes  
+			<input type="radio" name="choose" value="no"> No
+			<input type="radio" name="choose" value="maybe"> Maybe
+			<br /><br />
+			Comments: <br />
+			<!-- <input type="textarea"> </input> -->
+			<textarea rows="4" cols="50" name="comments"></textarea>
+			
+			<br /><br />
+			<input type="checkbox" name="sign" value="1">Sign me up for email updates. <br />
+			<input type="submit" value="SubmitReview" >
+		</div>			
+		</form>
+
+	</body>
+</html>
+
